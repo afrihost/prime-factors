@@ -33,3 +33,5 @@ The aim of the Prime Factors code kata is to caculate the prime factors of a giv
 ### Optional
 
 - Prime factors of 1024 is 2, 2, 2, 2, 2, 2, 2, 2, 2, 2
+
+https://en.wikipedia.org/wiki/Prime_factor
