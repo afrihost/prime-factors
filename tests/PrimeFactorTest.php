@@ -55,4 +55,11 @@ class PrimeFactorTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals([2, 2, 5, 5], $result);
     }
+
+    public function testCalculatePrimeFactorsOfThousandTwentyFour()
+    {
+        $result = $this->primeFactor->generate(1024);
+
+        $this->assertEquals([2, 2, 2, 2, 2, 2, 2, 2, 2, 2], $result);
+    }
 }
